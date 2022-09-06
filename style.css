@@ -42,6 +42,7 @@ About
 #about img {
     border-radius: 50%;
     width: 120px;
+    height: 120px;
     margin-bottom: 10px;
 }
 
@@ -71,6 +72,10 @@ About
     font-size: 30px;
 }
 
+#about .icons a{
+    color: black;
+}
+
 /*******************
 
 PROJECT
@@ -93,6 +98,13 @@ PROJECT
 #project .card-title {
     font-weight: bold;
 }
+
+.project-video {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
 .icons svg{
     width: 30px;
     height:30px;
